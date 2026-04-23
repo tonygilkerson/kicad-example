@@ -1677,6 +1677,121 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name ""
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(junction
 		(at 121.92 96.52)
@@ -1689,6 +1804,18 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "570dae7d-b1b1-42ec-8668-d53957fee9de")
+	)
+	(no_connect
+		(at 143.51 80.01)
+		(uuid "5d7cbcd6-8965-4bb6-929c-b5f7e6b40f9f")
+	)
+	(no_connect
+		(at 135.89 110.49)
+		(uuid "80d87516-af1b-482d-be48-1d46dc62b5ab")
+	)
+	(no_connect
+		(at 135.89 118.11)
+		(uuid "c3dc2049-7326-4d6a-b6d0-3d589d23fc0d")
 	)
 	(wire
 		(pts
@@ -1722,6 +1849,16 @@
 	)
 	(wire
 		(pts
+			(xy 175.26 113.03) (xy 175.26 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5ace1846-988e-457f-8ba0-d7cec55a8119")
+	)
+	(wire
+		(pts
 			(xy 170.18 96.52) (xy 121.92 96.52)
 		)
 		(stroke
@@ -1729,6 +1866,16 @@
 			(type default)
 		)
 		(uuid "5b403a8a-a23c-4fa3-86fc-c27adde59183")
+	)
+	(wire
+		(pts
+			(xy 162.56 113.03) (xy 162.56 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6027868e-13bb-451b-80e4-4fee53eed1a4")
 	)
 	(wire
 		(pts
@@ -1799,6 +1946,84 @@
 			(type default)
 		)
 		(uuid "ecbc35d5-3f80-4e78-bc8b-0ad493986337")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 162.56 116.84 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "08b18ca1-38be-4ab0-a0b5-bdb3c1ea5cbc")
+		(property "Reference" "#FLG01"
+			(at 162.56 118.745 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 162.56 121.92 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "7b8011c3-1cca-4dd0-9f13-695673fed707")
+		)
+		(instances
+			(project "hiki"
+				(path "/2d02707a-e6dd-4089-9e9f-64bb5ba400fd"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "power:+5V")
@@ -1964,7 +2189,7 @@
 	)
 	(symbol
 		(lib_id "Mechanical:Housing")
-		(at 124.46 114.3 0)
+		(at 107.95 114.3 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -1975,7 +2200,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ecf4855-9b28-4557-983e-6eeb6523eba5")
 		(property "Reference" "Z1"
-			(at 128.27 113.3474 0)
+			(at 111.76 113.3474 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1986,7 +2211,7 @@
 			)
 		)
 		(property "Value" "Power Supply Unit"
-			(at 128.27 115.8874 0)
+			(at 111.76 115.8874 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -1997,7 +2222,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 125.73 113.03 0)
+			(at 109.22 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2008,7 +2233,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 125.73 113.03 0)
+			(at 109.22 113.03 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2019,7 +2244,7 @@
 			)
 		)
 		(property "Description" "Housing"
-			(at 124.46 114.3 0)
+			(at 107.95 114.3 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2117,41 +2342,40 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:Battery_Cell")
-		(at 152.4 115.57 0)
+		(lib_id "power:PWR_FLAG")
+		(at 175.26 116.84 180)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(in_pos_files no)
+		(in_pos_files yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "86db6fac-edf2-4da6-bb25-39da9ca0134e")
-		(property "Reference" "Z2"
-			(at 156.21 112.4584 0)
+		(uuid "77f51d70-d765-4015-9675-51c0db7831e1")
+		(property "Reference" "#FLG02"
+			(at 175.26 118.745 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "Battery Assembly"
-			(at 156.21 114.9984 0)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 121.92 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 152.4 114.046 90)
+			(at 175.26 116.84 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2162,7 +2386,86 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 152.4 114.046 90)
+			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 175.26 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "087928c6-d581-4f81-9a95-e78ab9f88ef9")
+		)
+		(instances
+			(project "hiki"
+				(path "/2d02707a-e6dd-4089-9e9f-64bb5ba400fd"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:Battery_Cell")
+		(at 135.89 115.57 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files no)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "86db6fac-edf2-4da6-bb25-39da9ca0134e")
+		(property "Reference" "Z2"
+			(at 139.7 112.4584 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Battery Assembly"
+			(at 139.7 114.9984 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 114.046 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 114.046 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2173,7 +2476,7 @@
 			)
 		)
 		(property "Description" "Single-cell battery"
-			(at 152.4 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2184,7 +2487,7 @@
 			)
 		)
 		(property "Sim.Device" "V"
-			(at 152.4 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2195,7 +2498,7 @@
 			)
 		)
 		(property "Sim.Type" "DC"
-			(at 152.4 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2206,7 +2509,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=+ 2=-"
-			(at 152.4 115.57 0)
+			(at 135.89 115.57 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2317,6 +2620,161 @@
 			(project "hiki"
 				(path "/2d02707a-e6dd-4089-9e9f-64bb5ba400fd"
 					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 113.03 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "bb273060-6125-4e7d-b70e-b649d53084a8")
+		(property "Reference" "#PWR04"
+			(at 175.26 106.68 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "GND"
+			(at 175.26 108.966 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c962a4dd-5336-4b79-a5b5-291e06a6d3b7")
+		)
+		(instances
+			(project "hiki"
+				(path "/2d02707a-e6dd-4089-9e9f-64bb5ba400fd"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+5V")
+		(at 162.56 113.03 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c9cd56b1-5b6a-4f0d-bfd4-54407ace5a2b")
+		(property "Reference" "#PWR03"
+			(at 162.56 116.84 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "VCC"
+			(at 160.782 109.474 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 162.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 162.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+5V\""
+			(at 162.56 113.03 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1e7ed5b1-0527-457b-9df5-b6d1b9f2c4d2")
+		)
+		(instances
+			(project "hiki"
+				(path "/2d02707a-e6dd-4089-9e9f-64bb5ba400fd"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
