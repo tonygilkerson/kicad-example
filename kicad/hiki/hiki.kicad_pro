@@ -253,7 +253,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "hiki"
+    ]
   },
   "meta": {
     "filename": "hiki.kicad_pro",
@@ -416,7 +418,7 @@
         "uuid": "2d02707a-e6dd-4089-9e9f-64bb5ba400fd"
       }
     ],
-    "used_designators": "#PWR1-2,D1-2,R1",
+    "used_designators": "BT1,J1,SW1,N1,R2",
     "variants": []
   },
   "sheets": [
