@@ -2566,7 +2566,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_THT:LED_D5.0mm"
 			(at 162.56 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2812,7 +2812,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal"
 			(at 151.13 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -2893,7 +2893,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-5.0-H_1x02_P5.00mm_Horizontal"
 			(at 111.76 82.55 0)
 			(hide yes)
 			(show_name no)
