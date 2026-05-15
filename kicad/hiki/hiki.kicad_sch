@@ -2136,7 +2136,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "hiki:SWITCH_SPDT_3P"
 			(at 135.89 82.55 0)
 			(hide yes)
 			(show_name no)
